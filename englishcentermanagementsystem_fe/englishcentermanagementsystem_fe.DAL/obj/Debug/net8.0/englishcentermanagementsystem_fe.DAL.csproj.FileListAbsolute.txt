@@ -1,0 +1,1 @@
+D:\2025YEAR\ToolForDev\Folk\RepoStorage\EnglishCenterManagementSystem_FE\englishcentermanagementsystem_fe\englishcentermanagementsystem_fe\englishcentermanagementsystem_fe.DAL\obj\Debug\net8.0\englishcentermanagementsystem_fe.DAL.GeneratedMSBuildEditorConfig.editorconfig
