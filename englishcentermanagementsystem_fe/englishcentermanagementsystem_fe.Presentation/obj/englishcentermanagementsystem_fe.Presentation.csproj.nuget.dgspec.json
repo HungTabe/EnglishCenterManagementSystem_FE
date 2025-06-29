@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj": {}
+    "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj": {}
   },
   "projects": {
-    "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj": {
+    "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
+        "projectUniqueName": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
         "projectName": "englishcentermanagementsystem_fe.BLL",
-        "projectPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
+        "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
         "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-        "outputPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\obj\\",
+        "outputPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\2025YEAR\\VisualStudio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj": {
-                "projectPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj"
+              "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj": {
+                "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj": {
+    "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
+        "projectUniqueName": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
         "projectName": "englishcentermanagementsystem_fe.DAL",
-        "projectPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
+        "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
         "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-        "outputPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\obj\\",
+        "outputPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\2025YEAR\\VisualStudio\\Shared\\NuGetPackages"
@@ -138,14 +138,14 @@
         }
       }
     },
-    "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj": {
+    "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj",
+        "projectUniqueName": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj",
         "projectName": "englishcentermanagementsystem_fe.Presentation",
-        "projectPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj",
+        "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj",
         "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-        "outputPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\obj\\",
+        "outputPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\2025YEAR\\VisualStudio\\Shared\\NuGetPackages"
@@ -166,8 +166,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj": {
-                "projectPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\SinShop_BE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj"
+              "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj": {
+                "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj"
               }
             }
           }

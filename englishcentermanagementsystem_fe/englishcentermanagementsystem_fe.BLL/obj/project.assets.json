@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
+      "projectUniqueName": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
       "projectName": "englishcentermanagementsystem_fe.BLL",
-      "projectPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
+      "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
       "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-      "outputPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\obj\\",
+      "outputPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\2025YEAR\\VisualStudio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj": {
-              "projectPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj"
+            "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj": {
+              "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj"
             }
           }
         }

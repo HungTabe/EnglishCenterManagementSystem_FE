@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\englishcentermanagementsystem_fe.DAL\englishcentermanagementsystem_fe.DAL.csproj" />
+    <ProjectReference Include="..\englishcentermanagementsystem_fe.DAL\englishcentermanagementsystem_fe.DAL.csproj">
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>
