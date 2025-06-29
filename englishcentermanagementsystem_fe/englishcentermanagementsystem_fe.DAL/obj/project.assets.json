@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
+      "projectUniqueName": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
       "projectName": "englishcentermanagementsystem_fe.DAL",
-      "projectPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
+      "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
       "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-      "outputPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\obj\\",
+      "outputPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\2025YEAR\\VisualStudio\\Shared\\NuGetPackages"

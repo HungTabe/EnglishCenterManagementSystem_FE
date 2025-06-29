@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\englishcentermanagementsystem_fe.BLL\englishcentermanagementsystem_fe.BLL.csproj" />
+    <ProjectReference Include="..\englishcentermanagementsystem_fe.BLL\englishcentermanagementsystem_fe.BLL.csproj">
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\bootstrap\css\" />
+    <Folder Include="wwwroot\lib\bootstrap\js\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,11 @@
+﻿@page
+@model FreeTrialModel
+@{
+    ViewData["Title"] = "Free Trial";
+}
+
+<div class="container mt-5">
+    <h1>Free Trial</h1>
+    <p>Thank you for signing up for the free trial! We'll contact you at @Model.Email.</p>
+    <a asp-page="/Index" class="btn btn-primary">Back to Home</a>
+</div>

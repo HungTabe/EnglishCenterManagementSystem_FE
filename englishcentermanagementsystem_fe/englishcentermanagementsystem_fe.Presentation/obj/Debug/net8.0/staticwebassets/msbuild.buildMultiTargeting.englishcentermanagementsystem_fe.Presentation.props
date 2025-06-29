@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\englishcentermanagementsystem_fe.Presentation.props" />
+</Project>

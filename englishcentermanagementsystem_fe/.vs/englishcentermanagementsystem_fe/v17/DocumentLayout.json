@@ -1,16 +1,68 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\",
+  "WorkspaceRootPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\wwwroot\\css\\input.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\wwwroot\\css\\input.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\pages\\freetrial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\pages\\freetrial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\pages\\freetrial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\pages\\freetrial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B952CCB9-39B0-4F0A-9A86-C45CBC878867}|englishcentermanagementsystem_fe.Presentation\\englishcentermanagementsystem_fe.Presentation.csproj|solutionrelative:englishcentermanagementsystem_fe.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007E3011-F4F0-4B60-AD36-26B20AB5BE57}|englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.bll\\englishcentermanagementsystem_fe.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{007E3011-F4F0-4B60-AD36-26B20AB5BE57}|englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj|solutionrelative:englishcentermanagementsystem_fe.bll\\englishcentermanagementsystem_fe.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025YEAR\\VisualStudio\\Product\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDB38CC5-DBE2-4E63-A962-8B04BC17BC4E}|englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDB38CC5-DBE2-4E63-A962-8B04BC17BC4E}|englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDB38CC5-DBE2-4E63-A962-8B04BC17BC4E}|englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj|solutionrelative:englishcentermanagementsystem_fe.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{007E3011-F4F0-4B60-AD36-26B20AB5BE57}|englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{007E3011-F4F0-4B60-AD36-26B20AB5BE57}|englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj|d:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{007E3011-F4F0-4B60-AD36-26B20AB5BE57}|englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj|solutionrelative:englishcentermanagementsystem_fe.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -21,7 +73,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 221,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,37 +85,203 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Microsoft.Managed.Core.targets",
-              "DocumentMoniker": "D:\\2025YEAR\\VisualStudio\\Product\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\VisualStudio\\Product\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
-              "ToolTip": "D:\\2025YEAR\\VisualStudio\\Product\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\VisualStudio\\Product\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
-              "ViewState": "AgIAALUAAAAAAAAAAAAQwL4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-06-25T07:19:56.009Z",
+              "DocumentIndex": 2,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-29T10:06:02.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.DAL\\Class1.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\Class1.cs",
-              "RelativeToolTip": "englishcentermanagementsystem_fe.DAL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T07:14:52.248Z",
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-29T09:21:34.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-29T09:21:30.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\appsettings.json",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\appsettings.json",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-29T09:11:32.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\package.json",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\package.json",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\package.json",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-29T09:06:19.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "input.css",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\css\\input.css",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\wwwroot\\css\\input.css",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\css\\input.css",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\wwwroot\\css\\input.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-29T09:01:14.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FreeTrial.cshtml.cs",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Pages\\FreeTrial.cshtml.cs",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\Pages\\FreeTrial.cshtml.cs",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Pages\\FreeTrial.cshtml.cs",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\Pages\\FreeTrial.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T07:46:39.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FreeTrial.cshtml",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Pages\\FreeTrial.cshtml",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\Pages\\FreeTrial.cshtml",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Pages\\FreeTrial.cshtml",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\Pages\\FreeTrial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T07:46:26.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T07:45:33.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Pages\\Index.cshtml",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T07:45:12.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAqwGkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T07:44:01.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.Presentation\\Program.cs",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\Program.cs",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T09:22:13.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "englishcentermanagementsystem_fe.BLL.csproj",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-25T07:42:26.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Microsoft.Managed.Core.targets",
+              "DocumentMoniker": "D:\\2025YEAR\\VisualStudio\\Product\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
+              "RelativeDocumentMoniker": "..\\..\\2025YEAR\\VisualStudio\\Product\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
+              "ToolTip": "D:\\2025YEAR\\VisualStudio\\Product\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
+              "RelativeToolTip": "..\\..\\2025YEAR\\VisualStudio\\Product\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
+              "ViewState": "AgIAALUAAAAAAAAAAAAQwL4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-25T07:19:56.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\Class1.cs",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.DAL\\Class1.cs",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\Class1.cs",
+              "RelativeToolTip": "englishcentermanagementsystem_fe.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T07:14:52.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\Class1.cs",
               "RelativeDocumentMoniker": "englishcentermanagementsystem_fe.BLL\\Class1.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\Class1.cs",
+              "ToolTip": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\Class1.cs",
               "RelativeToolTip": "englishcentermanagementsystem_fe.BLL\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
