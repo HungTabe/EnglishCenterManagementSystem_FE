@@ -15,9 +15,6 @@ obj/
 appsettings.Development.json
 appsettings.*.json
 
-# Thư mục chứa gói NuGet
-packages/
-nuget.exe
 
 # Tệp nhật ký và dữ liệu tạm
 *.log
@@ -25,12 +22,6 @@ nuget.exe
 *.tmp
 *.temp
 *.swp
-
-# Thư mục chứa tệp được biên dịch và tài nguyên tĩnh đã xử lý
-wwwroot/lib/
-wwwroot/css/*.min.css
-wwwroot/js/*.min.js
-wwwroot/**/*.map
 
 # Tệp và thư mục của IDE
 .vscode/
@@ -53,10 +44,6 @@ wwwroot/**/*.map
 # Tệp khóa bí mật (secrets) của ASP.NET Core
 secrets.json
 Properties/launchSettings.json
-
-# Thư mục node_modules (nếu dùng npm cho Bootstrap hoặc các thư viện khác)
-node_modules/
-package-lock.json
 
 # Tệp kết quả kiểm thử
 TestResults/
