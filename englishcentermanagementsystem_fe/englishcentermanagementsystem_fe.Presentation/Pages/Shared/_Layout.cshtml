@@ -40,6 +40,9 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" asp-page="/ClassManagement">Classes</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="btn btn-primary ms-2" asp-page="/FreeTrial">Get Started</a>
                     </li>
                 </ul>
@@ -110,7 +113,7 @@
 
     <!-- Bootstrap 5 JS (CDN) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script src="~/js/site.js"></script>
+
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
