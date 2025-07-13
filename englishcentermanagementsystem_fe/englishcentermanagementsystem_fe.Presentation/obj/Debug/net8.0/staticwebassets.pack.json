@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\images\\avatar-placeholder1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-placeholder1.jpg"
+    },
+    {
+      "Id": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\images\\avatar-placeholder2.jpeg",
+      "PackagePath": "staticwebassets\\images\\avatar-placeholder2.jpeg"
+    },
+    {
+      "Id": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\images\\avatar-placeholder3.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-placeholder3.jpg"
+    },
+    {
       "Id": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.Presentation\\wwwroot\\images\\dashboard-placeholder.png",
       "PackagePath": "staticwebassets\\images\\dashboard-placeholder.png"
     },
