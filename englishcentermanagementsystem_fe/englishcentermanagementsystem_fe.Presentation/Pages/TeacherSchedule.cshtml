@@ -1,0 +1,65 @@
+@page
+@model TeacherScheduleModel
+@{
+    ViewData["Title"] = "Teacher Schedule";
+}
+
+<!-- Page Header -->
+<section class="section-padding bg-primary text-white mb-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h1 class="display-5 fw-bold mb-2">Teaching Schedules</h1>
+                <p class="lead mb-0">View your upcoming classes, course details, and student lists.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Alerts -->
+<div class="container mt-3">
+    <div id="alertPlaceholder"></div>
+</div>
+
+<!-- OData Query Controls -->
+<section class="section-padding">
+    <div class="container">
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <form id="queryForm" class="row g-3 align-items-end">
+                    <div class="col-md-3">
+                        <label for="teacherIdInput" class="form-label">Teacher ID</label>
+                        <input type="text" class="form-control" id="teacherIdInput" placeholder="Enter your Teacher ID" required />
+                    </div>
+                    <div class="col-md-3">
+                        <label for="filterInput" class="form-label">Filter (OData $filter)</label>
+                        <input type="text" class="form-control" id="filterInput" placeholder="e.g. CourseName eq 'Math'" />
+                    </div>
+                    <div class="col-md-2">
+                        <label for="orderInput" class="form-label">Order By</label>
+                        <input type="text" class="form-control" id="orderInput" placeholder="e.g. StartDate desc" />
+                    </div>
+                    <div class="col-md-2">
+                        <label for="topInput" class="form-label">Top</label>
+                        <input type="number" class="form-control" id="topInput" min="1" placeholder="e.g. 5" />
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="fas fa-search me-2"></i>Search
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Schedule Results -->
+        <div id="scheduleResults">
+            <!-- Bootstrap accordion/cards will be rendered here by JS -->
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="~/js/teacher-schedule.js"></script>
+} 
