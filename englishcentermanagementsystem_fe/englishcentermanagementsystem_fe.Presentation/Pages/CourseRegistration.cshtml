@@ -1,0 +1,145 @@
+@page
+@model CourseRegistrationModel
+@{
+    ViewData["Title"] = "Course Registration";
+}
+
+<!-- Page Header -->
+<section class="section-padding bg-primary text-white mb-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h1 class="display-5 fw-bold mb-2">Course Registration</h1>
+                <p class="lead mb-0">Register for courses, select your class, and complete payment to confirm your enrollment.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Alerts -->
+<div class="container mt-3">
+    <div id="alertPlaceholder"></div>
+</div>
+
+<!-- Step 1: Course List -->
+<section class="section-padding">
+    <div class="container">
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h4 class="card-title mb-3 text-primary">All Courses</h4>
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Course Name</th>
+                                <th>Category</th>
+                                <th>Description</th>
+                                <th>Duration (hrs)</th>
+                                <th>Fee</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="courseListTable">
+                            <!-- Rows will be populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 2: Course Detail -->
+        <div id="courseDetailSection" style="display:none;">
+            <div class="card shadow-sm mb-4">
+                <div class="card-body">
+                    <h4 class="card-title mb-3 text-primary">Course Detail</h4>
+                    <div id="courseDetailBody">
+                        <!-- Course detail will be rendered here by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 3: Class List for Selected Course -->
+        <div id="classListSection" style="display:none;">
+            <div class="card shadow-sm mb-4">
+                <div class="card-body">
+                    <h4 class="card-title mb-3 text-primary">Available Classes for This Course</h4>
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Class Name</th>
+                                    <th>Room</th>
+                                    <th>Max Capacity</th>
+                                    <th>Status</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="classListTable">
+                                <!-- Rows will be populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Step 4: Registration Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="registerForm">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Register for Course</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="registerAssignmentId" name="assignmentId" />
+                    <div class="mb-3">
+                        <label for="registerStudentId" class="form-label">Student ID</label>
+                        <input type="text" class="form-control" id="registerStudentId" name="studentId" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="registerAmount" class="form-label">Payment Amount</label>
+                        <input type="number" class="form-control" id="registerAmount" name="amount" min="0" step="0.01" required />
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="registerPartialPayment" name="isPartialPayment" />
+                            <label class="form-check-label" for="registerPartialPayment">Partial Payment</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Step 5: Enrollment Confirmation Modal -->
+<div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmationModalLabel">Enrollment Confirmation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="confirmationBody">
+                <!-- Confirmation details will be rendered here by JS -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="~/js/course-registration.js"></script>
+} 

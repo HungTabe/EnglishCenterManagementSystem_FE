@@ -1,0 +1,142 @@
+@page
+@model StudentEnrollmentModel
+@{
+    ViewData["Title"] = "Student Enrollment";
+}
+
+<!-- Page Header -->
+<section class="section-padding bg-primary text-white mb-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h1 class="display-5 fw-bold mb-2">Course Registration</h1>
+                <p class="lead mb-0">Browse available classes and register for your next course. Secure your spot with full or partial payment.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Alerts -->
+<div class="container mt-3">
+    <div id="alertPlaceholder"></div>
+</div>
+
+<!-- Class List Section -->
+<section class="section-padding">
+    <div class="container">
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h4 class="card-title mb-3 text-primary">All Classes</h4>
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Class ID</th>
+                                <th>Name</th>
+                                <th>Room</th>
+                                <th>Max Capacity</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="classListTable">
+                            <!-- Rows will be populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- OData Query Controls -->
+<section class="section-padding">
+    <div class="container">
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <form id="queryForm" class="row g-3 align-items-end">
+                    <div class="col-md-3">
+                        <label for="studentIdInput" class="form-label">Student ID</label>
+                        <input type="text" class="form-control" id="studentIdInput" placeholder="Enter your Student ID" required />
+                    </div>
+                    <div class="col-md-3">
+                        <label for="filterInput" class="form-label">Filter (OData $filter)</label>
+                        <input type="text" class="form-control" id="filterInput" placeholder="e.g. CourseName eq 'English'" />
+                    </div>
+                    <div class="col-md-2">
+                        <label for="orderInput" class="form-label">Order By</label>
+                        <input type="text" class="form-control" id="orderInput" placeholder="e.g. StartDate desc" />
+                    </div>
+                    <div class="col-md-2">
+                        <label for="topInput" class="form-label">Top</label>
+                        <input type="number" class="form-control" id="topInput" min="1" placeholder="e.g. 5" />
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="fas fa-search me-2"></i>Search
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Class/Course Results -->
+        <div id="classResults">
+            <!-- Bootstrap accordion/cards will be rendered here by JS -->
+        </div>
+    </div>
+</section>
+
+<!-- Registration Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="registerForm">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Register for Course</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="registerAssignmentId" name="assignmentId" />
+                    <input type="hidden" id="registerStudentId" name="studentId" />
+                    <div class="mb-3">
+                        <label for="registerAmount" class="form-label">Payment Amount</label>
+                        <input type="number" class="form-control" id="registerAmount" name="amount" min="0" step="0.01" required />
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="registerPartialPayment" name="isPartialPayment" />
+                            <label class="form-check-label" for="registerPartialPayment">Partial Payment</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Enrollment Confirmation Modal -->
+<div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmationModalLabel">Enrollment Confirmation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="confirmationBody">
+                <!-- Confirmation details will be rendered here by JS -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="~/js/student-enrollment.js"></script>
+} 
