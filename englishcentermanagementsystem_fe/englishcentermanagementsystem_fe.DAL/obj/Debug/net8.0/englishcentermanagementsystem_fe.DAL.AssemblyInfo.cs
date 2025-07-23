@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("englishcentermanagementsystem_fe.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91343bd81ef221d5475f804884c071b7fa28e3b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad872bf003672da0917b1d43a61cc285f9254dc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("englishcentermanagementsystem_fe.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("englishcentermanagementsystem_fe.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

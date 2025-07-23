@@ -5,7 +5,11 @@ wwwroot\images\avatar-placeholder1.jpg
 wwwroot\images\avatar-placeholder2.jpeg
 wwwroot\images\avatar-placeholder3.jpg
 wwwroot\images\dashboard-placeholder.png
+wwwroot\js\class-management.js
+wwwroot\js\payment-management.js
 wwwroot\js\site.js
+wwwroot\js\teacher-schedule.js
+wwwroot\js\user-management.js
 wwwroot\lib\bootstrap\css\bootstrap.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

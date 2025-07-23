@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -12,9 +13,14 @@ namespace englishcentermanagementsystem_fe.Presentation.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
+            var path = HttpContext.Request.Path.Value?.ToLower();
+            if (HttpContext.Session.GetString("Token") == null && path != "/login" && path != "/register" && path != "/freetrial")
+            {
+                return RedirectToPage("/Login");
+            }
+            return Page();
         }
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj": {}
+    "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj": {}
   },
   "projects": {
-    "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj": {
+    "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
+        "projectUniqueName": "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
         "projectName": "englishcentermanagementsystem_fe.BLL",
-        "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
-        "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-        "outputPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\obj\\",
+        "projectPath": "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\englishcentermanagementsystem_fe.BLL.csproj",
+        "packagesPath": "D:\\CSharp\\NugetCache\\.nuget",
+        "outputPath": "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\2025YEAR\\VisualStudio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\trand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,15 +25,18 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\MyNugetPackages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\PackageSource_PE": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj": {
-                "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj"
+              "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj": {
+                "projectPath": "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj"
               }
             }
           }
@@ -48,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -69,24 +72,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj": {
+    "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
+        "projectUniqueName": "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
         "projectName": "englishcentermanagementsystem_fe.DAL",
-        "projectPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
-        "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-        "outputPath": "D:\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\obj\\",
+        "projectPath": "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\englishcentermanagementsystem_fe.DAL.csproj",
+        "packagesPath": "D:\\CSharp\\NugetCache\\.nuget",
+        "outputPath": "D:\\CSharp\\EnglishCenterManagementSystem_FE\\englishcentermanagementsystem_fe\\englishcentermanagementsystem_fe.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\2025YEAR\\VisualStudio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\trand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -94,7 +97,10 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\MyNugetPackages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\PackageSource_PE": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -113,7 +119,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -134,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
