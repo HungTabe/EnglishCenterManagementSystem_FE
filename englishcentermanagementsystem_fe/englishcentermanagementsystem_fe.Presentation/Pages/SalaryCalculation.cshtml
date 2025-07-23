@@ -1,0 +1,166 @@
+@page
+@model SalaryCalculationModel
+@{
+    ViewData["Title"] = "Salary Calculation";
+}
+
+<section class="section-padding" style="margin-top: 130px; margin-bottom: 80px;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold text-primary mb-3">Salary Calculation</h2>
+            <p class="lead text-muted">Administrators can calculate teacher salaries based on teaching hours, hourly rates, and additional factors.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div id="alert-placeholder"></div>
+                <div class="card p-4 mb-4">
+                    <form id="salaryCalcForm">
+                        <div class="mb-3">
+                            <label for="teacherId" class="form-label">Teacher ID</label>
+                            <input type="text" class="form-control" id="teacherId" name="teacherId" required>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="month" class="form-label">Month</label>
+                                <input type="number" class="form-control" id="month" name="month" min="1" max="12" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="year" class="form-label">Year</label>
+                                <input type="number" class="form-control" id="year" name="year" min="2000" max="2100" required>
+                            </div>
+                        </div>
+                        <div class="text-end">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-calculator me-2"></i>Calculate Salary
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div id="salaryResult"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+          const apiUrl = 'https://localhost:7176/salary/calculate';
+
+        function showAlert(message, type = 'danger') {
+            $('#alert-placeholder').html(
+                `<div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>`
+            );
+        }
+
+        function showSalaryResult(data) {
+            let sessionRows = '';
+            data.sessions.forEach((s, idx) => {
+                sessionRows += `
+                    <tr>
+                        <td>${idx + 1}</td>
+                        <td>${s.sessionDate}</td>
+                        <td>${s.hourlyRate}</td>
+                        <td>${s.totalHours}</td>
+                        <td>${s.sessionSalary}</td>
+                        <td>${s.note || ''}</td>
+                    </tr>
+                `;
+            });
+            $('#salaryResult').html(`
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="fas fa-money-bill-wave me-2"></i>Salary Breakdown</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-2">
+                            <div class="col-6 fw-bold">Teacher ID:</div>
+                            <div class="col-6">${data.teacherId}</div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-6 fw-bold">Teacher Name:</div>
+                            <div class="col-6">${data.teacherName}</div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-6 fw-bold">Period:</div>
+                            <div class="col-6">${data.month}/${data.year}</div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-6 fw-bold">Total Teaching Hours:</div>
+                            <div class="col-6">${data.totalTeachingHours}</div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-6 fw-bold">Base Salary:</div>
+                            <div class="col-6">${data.baseSalary}</div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-6 fw-bold">Bonus:</div>
+                            <div class="col-6">${data.bonus}</div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-6 fw-bold">Deduction:</div>
+                            <div class="col-6">${data.deduction}</div>
+                        </div>
+                        <hr>
+                        <div class="row mb-2">
+                            <div class="col-6 fw-bold text-success">Total Salary:</div>
+                            <div class="col-6 fw-bold text-success">${data.totalSalary}</div>
+                        </div>
+                        <div class="mt-4">
+                            <h6 class="fw-bold">Session Details</h6>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-hover align-middle">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Date</th>
+                                            <th>Hourly Rate</th>
+                                            <th>Total Hours</th>
+                                            <th>Session Salary</th>
+                                            <th>Note</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        ${sessionRows}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `);
+        }
+
+        $(document).ready(function() {
+            $('#salaryCalcForm').submit(function(e) {
+                e.preventDefault();
+                $('#alert-placeholder').html('');
+                $('#salaryResult').html('');
+                const data = {
+                    teacherId: $('#teacherId').val(),
+                    month: parseInt($('#month').val()),
+                    year: parseInt($('#year').val())
+                };
+                $.ajax({
+                    url: apiUrl,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function(result) {
+                        showSalaryResult(result);
+                    },
+                    error: function(xhr) {
+                        let msg = 'Failed to calculate salary.';
+                        if (xhr.responseText) {
+                            msg = xhr.responseText;
+                        }
+                        showAlert(msg, 'danger');
+                    }
+                });
+            });
+        });
+    </script>
+} 
