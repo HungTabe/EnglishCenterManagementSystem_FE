@@ -39,24 +39,55 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-page="/ClassManagement">Classes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-page="/PaymentManagement">Payments</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-page="/TeacherSchedule">Schedules</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-page="/StudentEnrollment">Enroll</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-page="/CourseList">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-primary ms-2" asp-page="/FreeTrial">Get Started</a>
-                    </li>
+                    @if (Context.Session.GetString("Token") == null)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Register">Register</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <span class="nav-link disabled"><i class="fas fa-user me-1"></i>@Context.Session.GetString("FullName")</span>
+                        </li>
+                        @if (Context.Session.GetString("Role") == "0")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-page="/UserManagement">Users Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-page="/ClassManagement">Classes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-page="/PaymentManagement">Payments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-page="/TeacherSchedule">Schedules</a>
+                            </li>
+                        }
+                        else if (Context.Session.GetString("Role") == "1")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-page="/TeacherSchedule">Schedules</a>
+                            </li>
+                        }
+                        else if (Context.Session.GetString("Role") == "2")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-page="/ClassManagement">My Classes</a>
+                            </li>
+                           <li class="nav-item">
+                            <a class="nav-link" asp-page="/CourseList">Courses</a>
+                          </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" asp-page="/Logout">Logout</a>
+                        </li>
+                    }
+
                 </ul>
             </div>
         </div>
@@ -109,7 +140,7 @@
                         <li><a href="#" class="nav-link p-0 text-light">Cookie Policy</a></li>
                         <li><a href="#" class="nav-link p-0 text-light">GDPR</a></li>
                     </ul>
-                </div>
+                </div>  
             </div>
             <hr class="my-4">
             <div class="row align-items-center">
